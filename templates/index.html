@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- Define el tipo de documento como HTML5 -->
+
+<html lang="es">
+<!-- Indica que el idioma principal del contenido es español -->
+
+<head>
+  <meta charset="UTF-8">
+  <!-- Define la codificación de caracteres como UTF-8 para soportar acentos y caracteres especiales -->
+
+  <title>Chatbot INGE LEAN</title>
+  <!-- Título que se mostrará en la pestaña del navegador -->
+
+  <link rel="stylesheet" href="/static/style.css">
+  <!-- Enlace al archivo de estilos CSS ubicado en la carpeta /static -->
+</head>
+
+<body>
+  <!-- Cuerpo del documento HTML -->
+
+  <div class="chat-container">
+    <!-- Contenedor principal del chatbot con una clase para aplicar estilos -->
+
+    <h2>Chat INGE LEAN S.A.S</h2>
+    <!-- Título que aparece en la parte superior del chat -->
+
+    <div id="chat"></div>
+    <!-- Contenedor donde se mostrarán los mensajes del usuario y del bot -->
+
+    <div class="input-area">
+      <!-- Área donde el usuario puede escribir su mensaje y enviar -->
+
+      <input type="text" id="userInput" placeholder="Escribe tu mensaje..." />
+      <!-- Campo de entrada de texto con un identificador único -->
+
+      <button onclick="sendMessage()">Enviar</button>
+      <!-- Botón que al hacer clic ejecuta la función sendMessage() definida en el archivo JS -->
+    </div>
+  </div>
+
+  <script src="/static/chatbot.js"></script>
+  <!-- Enlace al archivo JavaScript que contiene la lógica del chatbot -->
+</body>
+
+</html>
+<!-- Fin del documento HTML -->
